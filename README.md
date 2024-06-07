@@ -1,0 +1,1 @@
+After ScpSl 13.5 release NW broke the method  used to disable primitive collision - its now impossible to do it by setting negative scale. To avoid having to rewrite all plugins, you can use this small harmony patch that sets those flags automaticly when primitive is created with negative scale
